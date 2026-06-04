@@ -1,17 +1,15 @@
 import "./App.css";
 import LeftSide from "./components/LeftSide";
+import Login from "./components/Login";
+import SignUp from "./components/Signup";
 
 function App() {
   return (
     <>
-      {/* <div className="gird grid-rows-3">
-        
-      </div>
-
-      <LeftSide />
-        <LeftSide /> */}
-        <LeftSide />
         {/* <LeftSide /> */}
+        {/* <Login/> */}
+        <SignUp/>
+        
     </>
   );
 }
